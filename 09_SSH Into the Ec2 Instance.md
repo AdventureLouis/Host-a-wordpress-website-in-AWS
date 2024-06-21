@@ -17,7 +17,7 @@ as shown above
 ![SSH_Into3](https://github.com/AdventureLouis/Host-a-wordpress-website-in-AWS/assets/161846069/bf1963b0-8896-45ad-b4a6-f599c27bdd93)
 
 Open your terminal type ssh -i "name_of_the_keypair" ec2user@ec2-your_public_IPv4_address.your_region.compute.amazonaws.com
-e.g ssh -i newEC2key.pem ec2user
+
 <br>
 
 ### For Windows users
