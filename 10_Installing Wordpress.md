@@ -44,7 +44,7 @@ Now I think its important I explain above codes which I executed previously so t
 <br>
 *sudo su*-->This command will elevate the users permissions to administrative permission thereby making the user a root user
 <br>
-*yum update -y*-->This commsnd updates the packages in the ec2 instance to latest versions,the flag y command(-y) authomatically answers yes to any prompt during the update process
+*yum update -y*-->This commsnd updates the packages in the ec2 instance to latest versions,the flag y command(-y) automatically answers yes to any prompt during the update process
 <br>
 *mkdir -p /var/www/html*--> This command will help to create a directory named var/www/html,the flag p(-p) indicates the creation of parent directory inside the directory,and  seems we will be installing apache server,the directory var/www/html will help to save the index files
 <br>
