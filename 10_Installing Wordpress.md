@@ -163,7 +163,7 @@ sudo chown apache:apache -R /var/www/html
 ```
 <br>
 
-*sudo usermod -a -G apache ec2-user*--> This command will help to add the ec2-user to Apache group,this will enable the sc2-user to able to access files and directories owned by the Apache group
+*sudo usermod -a -G apache ec2-user*--> This command will help to add the ec2-user to Apache group,this will enable the ec2-user to able to access files and directories owned by the Apache group
 <br>
 *sudo chown -R ec2-user:apache /var/www* -->This command changes the ownership of /var/www and its content to the ec2-user,thereby ensuring that the ec2-user have neccessary permissions to manage the files.The /var/www is a default root directory for storing web content in open source web servers like Apache
 <br>
