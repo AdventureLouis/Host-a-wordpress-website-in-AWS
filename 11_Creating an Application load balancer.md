@@ -10,7 +10,7 @@ and this is security best practice.Now in order to achieve this goal we will uti
 An Application balancer(ALB) is a load balancing service that is managed my AWS,It is designed to distribute traffic  accross multiple targets such as Amazon ec2 instances,containers,IP addresses,
 or lambda functions
 <br>
-Before creatin an Application load balancer,we first need to create two ec2 instances in the private app subnets that we earliear created.Recall that previously,we created the setup server instance and had the wordpress
+Before creating an Application load balancer,we first need to create two ec2 instances in the private app subnets that we earliear created.Recall that previously,we created the setup server instance and had the wordpress
 files saved in EFS,now we create instances in the private subnet,attach them to EFS and delete the setup instance in the public subnet.
 <br>
 
