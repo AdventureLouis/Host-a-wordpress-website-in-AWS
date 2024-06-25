@@ -7,7 +7,7 @@ Before I explain the importance and use of Application balancer first I will lik
 Our architecture is designed in such a way that a user from outside or a user from the internet cannot directly access or interact with instances in our private subnet such ec2 and RDS 
 and this is security best practice.Now in order to achieve this goal we will utilize an Application load balancer in AWS.
 <br>
-An Application balancer(ALB) is a load balancing service that is managed my AWS,It is designed to distribute traffic  accross multiple targets such as Amazon ec2 instances,containers,IP addresses,
+An Application balancer(ALB) is a load balancing service that is managed by AWS,It is designed to distribute traffic  accross multiple targets such as Amazon ec2 instances,containers,IP addresses,
 or lambda functions
 <br>
 Before creating an Application load balancer,we first need to create two ec2 instances in the private app subnets that we earliear created.Recall that previously,we created the setup server instance and had the wordpress
