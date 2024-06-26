@@ -13,10 +13,12 @@ click load balancer and you will see the load balancer we prevously created Now 
 Now we will change the "Protocol" to "HTTPS" (443), on "Default actions", select "Forward" (determines how incoming requests are processed and forwarded to the target group).
 
 <br>
+
 ![Listener5](https://github.com/AdventureLouis/Host-a-wordpress-website-in-AWS/assets/161846069/8739ac18-9d53-4358-a00e-f1e66b2e5dc8)
 
-Under security policy,select the default recommended policy,under "Default SSL/TLS server certificate" select ACM(AWS Certificate manager) and click add shwon above
+Under security policy,select the default recommended policy,under "Default SSL/TLS server certificate" select ACM(AWS Certificate manager) and click add shown above
 <br>
+
 ![Listener6](https://github.com/AdventureLouis/Host-a-wordpress-website-in-AWS/assets/161846069/ccd9cec7-23d9-43b3-b490-b9310fdb0fbd)
 
 ![Listener7](https://github.com/AdventureLouis/Host-a-wordpress-website-in-AWS/assets/161846069/48cb7702-0673-4ecb-960d-1c1212af7a88)
