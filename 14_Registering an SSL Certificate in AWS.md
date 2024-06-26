@@ -14,7 +14,7 @@ Check the box next to request a public certficate and click next
 <br>
 ![SSL2](https://github.com/AdventureLouis/Host-a-wordpress-website-in-AWS/assets/161846069/41441073-67ae-442f-864c-12c27fd158bb)
 
-Under "Fully qualified domain name" and click "Add another sertificate" and this time type "*.your domain name" 1.e *.loalab.org as seen above
+Under "Fully qualified domain name" and click "Add another certificate" and this time type "*.your domain name" 1.e *.loalab.org as seen above
 <br>
 ![SSL3](https://github.com/AdventureLouis/Host-a-wordpress-website-in-AWS/assets/161846069/e40d2a8f-b6e1-4fd7-b644-d2673f83f77c)
 
